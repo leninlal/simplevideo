@@ -8,7 +8,7 @@ from xblock.fields import Scope, Integer, String
 from xblock.fragment import Fragment
 
 
-class SimpleVideoBlock(XBlock):
+class SimpleVideoXBlock(XBlock):
     """
     An XBlock providing oEmbed capabilities for video (currently only supporting Vimeo)
     """
